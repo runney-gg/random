@@ -16,7 +16,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link 
           href="/"
-          className="text-xl font-bold tracking-wide"
+          className="text-xl font-bold tracking-wide text-gray-900"
         >
           BusinessName
         </Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-gray-700 hover:text-black transition"
+              className="text-sm font-medium text-gray-900 hover:text-black transition"
             >
               {link.name}
             </Link>

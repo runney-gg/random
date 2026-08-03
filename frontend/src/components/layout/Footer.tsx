@@ -15,11 +15,11 @@ export default function Footer() {
 
         {/* Company */}
         <div>
-          <h2 className="text-xl font-bold">
+          <h2 className="text-xl font-bold text-gray-900">
             BusinessName
           </h2>
 
-          <p className="mt-3 text-sm text-gray-600">
+          <p className="mt-3 text-sm text-gray-700">
             Quality craftsmanship and custom furniture solutions
             built with precision and care.
           </p>
@@ -28,7 +28,7 @@ export default function Footer() {
 
         {/* Links */}
         <div>
-          <h3 className="font-semibold">
+          <h3 className="font-semibold text-gray-900">
             Quick Links
           </h3>
 
@@ -37,7 +37,7 @@ export default function Footer() {
               <li key={link.name}>
                 <Link
                   href={link.href}
-                  className="text-sm text-gray-600 hover:text-black"
+                  className="text-sm text-gray-700 hover:text-black"
                 >
                   {link.name}
                 </Link>
@@ -49,19 +49,19 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h3 className="font-semibold">
+          <h3 className="font-semibold text-gray-900">
             Contact
           </h3>
 
-          <p className="mt-3 text-sm text-gray-600">
+          <p className="mt-3 text-sm text-gray-700">
             Phone: +977 XXXXXXXX
           </p>
 
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-700">
             Email: info@example.com
           </p>
 
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-700">
             Nepal
           </p>
         </div>
