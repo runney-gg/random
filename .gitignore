@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Next.js
+.next/
+out/
+
+# Backend
+dist/
+
+# Logs
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# Coverage
+coverage/
